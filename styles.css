@@ -1,18 +1,19 @@
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    background: linear-gradient(to right, #ccccff, #e0e0ff);
+    background: #ccccff; /* Periwinkle color */
     text-align: center;
     color: #333;
+}
 .container {
     max-width: 800px;
     margin: 50px auto;
-    background: rgba(255, 255, 255, 0.4); 
+    background: rgba(255, 255, 255, 0.4);
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
+/* Letter section styling */
 .letter-section {
     display: flex;
     flex-direction: column;
@@ -26,12 +27,12 @@ body {
 }
 
 h1 {
-    color: #8b0046; 
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7); 
+    color: #8b0046;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
 }
 
 h2 {
-    color: #8b0046; 
+    color: #8b0046;
 }
 
 .love-letter-icon {
@@ -52,10 +53,10 @@ h2 {
 }
 .song {
     background: rgba(255, 255, 255, 0.5);
-    padding: 10px;
-    margin: 10px 0;
+    padding: 15px;
+    margin: 15px 0;
     border-radius: 10px;
-    color: #333; 
+    color: #333;
 }
 button {
     background: #ff758c;
