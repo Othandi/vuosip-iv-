@@ -32,8 +32,23 @@
             <div class="song">
                 <p>🥀[My Dear]🥀</p>
                 <button onclick="window.open('https://open.spotify.com/track/38dyoMgDMotr4qX8qlL17j?si=2bcbc642953b4245', '_blank')">Play</button>
+                <div class="song-image">
+                    <img src="481296939_534140635826263_1746337842525508982_n.jpg" alt="Our Special Moment" onclick="openLightbox()">
+                </div>
             </div>
         </div>
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="481296939_534140635826263_1746337842525508982_n.jpg">
+    </div>
+
+    <script>
+        function openLightbox() {
+            document.getElementById('lightbox').style.display = 'flex';
+        }
+        function closeLightbox() {
+            document.getElementById('lightbox').style.display = 'none';
+        }
+    </script>
     </div>
 </body>
 </html>
