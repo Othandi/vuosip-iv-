@@ -2,14 +2,16 @@ body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     background: linear-gradient(to right, #ccccff, #fad0c4);
     text-align: center;
-    color: #2b2626;
+    color: #5e0d4b; 
+    font-weight: bold; 
 }
 .container {
     max-width: 800px;
     margin: 50px auto;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.4); 
     padding: 20px;
     border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 .love-letter-icon {
     display: flex;
@@ -28,10 +30,11 @@ body {
     margin-top: 30px;
 }
 .song {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.5); 
     padding: 10px;
     margin: 10px 0;
     border-radius: 10px;
+    border: 1px solid rgba(94, 13, 75, 0.3); 
 }
 button {
     background: #ff758c;
@@ -40,11 +43,13 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
 button:hover {
     background: #ff4f7b;
+    transform: translateY(-2px); 
 }
-
 
 .back-button {
     display: inline-block;
@@ -54,8 +59,15 @@ button:hover {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    transition: background 0.3s;
+    transition: all 0.3s;
+    font-weight: bold; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
 .back-button:hover {
     background: #ff4f7b;
+    transform: translateY(-2px); 
 }
+
+h1, h2, h3 {
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); 
+    color: #4c0a3d;
