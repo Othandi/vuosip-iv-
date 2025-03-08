@@ -2,7 +2,7 @@ body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     background: linear-gradient(to right, #ccccff, #fad0c4);
     text-align: center;
-    color: #fff;
+    color: #2b2626;
 }
 .container {
     max-width: 800px;
