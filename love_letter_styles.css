@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    background: linear-gradient(to right, #ccccff, #fad0c4);
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #ccccff, #fad0c4);
     display: flex;
     justify-content: center;
     align-items: center;
